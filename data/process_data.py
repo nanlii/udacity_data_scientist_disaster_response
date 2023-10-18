@@ -20,6 +20,10 @@ def load_data(messages_filepath, categories_filepath):
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     df = messages.merge(categories, on='id')
+
+    # value 2 in the related column is invalid
+    # I will replace the value 2 to 1, which is the majority class in the filed
+    df['related'] = df['related'].map(lambda x: 1 if x == 2 else x)
     
     return df 
 
