@@ -47,8 +47,8 @@ Here's the file structure of the project:
 ├── models
 │   ├── classifier.pkl  # saved model 
 │   └── train_classifier.py
-├── screenshots
-│   ├── evaluate_model.pdf  # results and running process
+├── screenshots # results and running process
+│   ├── evaluate_model.pdf  
 │   ├── graph1.pdf
 │   ├── graph2.pdf
 │   ├── graph3.pdf
