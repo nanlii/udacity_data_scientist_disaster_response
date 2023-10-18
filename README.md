@@ -58,13 +58,11 @@ Here's the file structure of the project:
     ├── DisasterResponse.db
     ├── ETL Pipeline Preparation.html
     ├── ETL Pipeline Preparation.ipynb
-    ├── Flask Visulization.ipynb
     ├── ML Pipeline Preparation.html
     ├── ML Pipeline Preparation.ipynb
     ├── Twitter-sentiment-self-drive-DFE.csv
     ├── categories.csv
-    ├── messages.csv
-    └── nlp_model.pkl
+    └── messages.csv
 ```
 
 
